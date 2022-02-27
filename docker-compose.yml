@@ -1,4 +1,6 @@
 version: '3.3'
+# - для архитектуры x86 используем образ apacheignite/ignite
+# - для архитектуры arm applem1support/ignite:2.12.0
 services:
     ignite-node-1:
         image: apacheignite/ignite
